@@ -1,0 +1,231 @@
+var all = document.querySelector(".all")
+var silver = document.querySelector(".silver")
+var blue = document.querySelector(".blue")
+var white = document.querySelector(".white")
+var black = document.querySelector(".black")
+var pic2 = document.querySelector(".pic2")
+
+var a=0
+document.querySelectorAll('.bgcolor').forEach((elem)=>{
+if(a==0){
+  elem.addEventListener('click',function(e){
+    bgcolor.classList.add(
+      bgcolor.style.border="3.1px solid rgb(46, 32, 42)",
+      bgcolor.style.transform="scale(1.11)",
+      bgcolor.style.boxShadow= "0 0 0 3px white")
+   })
+  a=1
+}
+else{
+  bgcolor.classList.remove(
+    bgcolor.style.border="3.1px solid rgb(46, 32, 42)",
+    bgcolor.style.transform="scale(1.11)",
+    bgcolor.style.boxShadow= "0 0 0 3px white")
+  a=0
+}
+  // ["all","silver","white",""]
+  
+
+})
+// silver.addEventListener("click",function(elem){
+
+  
+// gsap.to(".pic1,.pic3,.pic4,.pic5",{
+//   opacity:0
+// })
+// gsap.to(".pic2",{
+// opacity:1
+// })
+// gsap.to(".content2>p",{
+//   opacity:0,
+  
+// })
+//   gsap.to(".content2>p1",{
+//     opacity:1,
+    
+//     })
+
+
+    
+//   silver.classList.add(
+//    silver.style.border="3.1px solid rgb(46, 32, 42)",
+//    silver.style.transform="scale(1.11)",
+//    silver.style.boxShadow= "0 0 0 3px white")
+
+//   white.classList.remove(
+
+//     white.style.border="3.1px solid rgb(46, 32, 42)",
+//     white.style.transform="scale(1.11)",
+//     white.style.boxShadow= "0 0 0 3px white",)
+    
+//   all.classList.remove(
+//   all.style.border="3.1px solid rgb(46, 32, 42)",
+//   all.style.transform="scale(1.11)",
+//   all.style.boxShadow= "0 0 0 3px white",)
+    
+//     black.classList.remove(
+//       black.style.border="3.1px solid rgb(46, 32, 42)",
+//       black.style.transform="scale(1.11)",
+//       black.style.boxShadow= "0 0 0 3px white",)
+      
+//    blue.classList.remove(
+//    blue.style.border="3.1px solid rgb(46, 32, 42)",
+//    blue.style.transform="scale(1.11)",
+//    blue.style.boxShadow= "0 0 0 3px white",
+//       ) 
+
+// })
+
+// var all = document.querySelector(".all")
+// var silver = document.querySelector(".silver")
+// var blue = document.querySelector(".blue")
+// var white = document.querySelector(".white")
+// var black = document.querySelector(".black")
+// var pic3 = document.querySelector(".pic3")
+
+// blue.addEventListener("click",function(elem){
+//   gsap.to(".pic1,.pic2,.pic4,.pic5",{
+//     opacity:0
+//   })
+//   gsap.to(".pic3",{
+//     opacity:1
+//   })
+
+
+// blue.classList.add(
+// blue.style.border="3.1px solid rgb(46, 32, 42)",
+// blue.style.transform="scale(1.11)",
+// blue.style.boxShadow= "0 0 0 3px white"),
+
+// white.classList.remove(
+
+// white.style.border="3.1px solid rgb(46, 32, 42)",
+// white.style.transform="scale(1.11)",
+// white.style.boxShadow= "0 0 0 3px white",)
+
+// silver.classList.remove(
+// silver.style.border="3.1px solid rgb(46, 32, 42)",
+// silver.style.transform="scale(1.11)",
+// silver.style.boxShadow= "0 0 0 3px white",)
+
+// black.classList.remove(
+//   black.style.border="3.1px solid rgb(46, 32, 42)",
+//   black.style.transform="scale(1.11)",
+//   black.style.boxShadow= "0 0 0 3px white",)
+  
+//   all.classList.remove(
+//   all.style.border="3.1px solid rgb(46, 32, 42)",
+//   all.style.transform="scale(1.11)",
+//   all.style.boxShadow= "0 0 0 3px white",
+  
+//   )
+
+// })
+
+
+// var all = document.querySelector(".all")
+// var silver = document.querySelector(".silver")
+// var blue = document.querySelector(".blue")
+// var white = document.querySelector(".white")
+// var black = document.querySelector(".black")
+// var pic4 = document.querySelector(".pic4")
+
+// white.addEventListener("click",function(elem){
+
+//   gsap.to(".pic1,.pic3,.pic2,.pic5",{
+//     opacity:0
+//   })
+//     gsap.to(".pic4",{
+//       opacity:1
+      
+//   })
+//   gsap.to(".content2>p1",{
+//     opacity:0,
+    
+//     })
+//     gsap.to(".content2>p2",{
+//       opacity:1,
+      
+//   })
+
+// white.classList.add(
+// white.style.border="3.1px solid rgb(46, 32, 42)",
+// white.style.transform="scale(1.11)",
+// white.style.boxShadow= "0 0 0 3px white")
+
+// blue.classList.remove(
+// blue.style.border="3.1px solid rgb(46, 32, 42)",
+// blue.style.transform="scale(1.11)",
+// blue.style.boxShadow= "0 0 0 3px white",)
+
+// silver.classList.remove(
+// silver.style.border="3.1px solid rgb(46, 32, 42)",
+// silver.style.transform="scale(1.11)",
+// silver.style.boxShadow= "0 0 0 3px white",)
+
+// black.classList.remove(
+// black.style.border="3.1px solid rgb(46, 32, 42)",
+// black.style.transform="scale(1.11)",
+// black.style.boxShadow= "0 0 0 3px white",)
+
+// all.classList.remove(
+// all.style.border="3.1px solid rgb(46, 32, 42)",
+// all.style.transform="scale(1.11)",
+// all.style.boxShadow= "0 0 0 3px white",
+
+// )
+
+
+
+// })
+
+// var all = document.querySelector(".all")
+// var silver = document.querySelector(".silver")
+// var blue = document.querySelector(".blue")
+// var white = document.querySelector(".white")
+// var black = document.querySelector(".black")
+// var pic4 = document.querySelector(".pic4")
+
+// black.addEventListener("click",function(elem){
+// gsap.to(".pic1,.pic3,.pic2,.pic4",{
+//   opacity:0
+// })
+//   gsap.to(".pic5",{
+//     opacity:1
+    
+// })
+// gsap.to(".content2>p2",{
+//   opacity:0,
+  
+//   })
+//   gsap.to(".content2>p3",{
+//     opacity:1,
+    
+//  })
+//   black.classList.add(
+//     black.style.border="3.1px solid rgb(46, 32, 42)",
+//     black.style.transform="scale(1.11)",
+//     black.style.boxShadow= "0 0 0 3px white")
+
+//     blue.classList.remove(
+//       blue.style.border="3.1px solid rgb(46, 32, 42)",
+//       blue.style.transform="scale(1.11)",
+//       blue.style.boxShadow= "0 0 0 3px white",)
+      
+//       silver.classList.remove(
+//       silver.style.border="3.1px solid rgb(46, 32, 42)",
+//       silver.style.transform="scale(1.11)",
+//       silver.style.boxShadow= "0 0 0 3px white",)
+      
+//      white.classList.remove(
+//      white.style.border="3.1px solid rgb(46, 32, 42)",
+//      white.style.transform="scale(1.11)",
+//      white.style.boxShadow= "0 0 0 3px white",)
+      
+//       all.classList.remove(
+//       all.style.border="3.1px solid rgb(46, 32, 42)",
+//       all.style.transform="scale(1.11)",
+//       all.style.boxShadow= "0 0 0 3px white",
+      
+//       )
+// })
